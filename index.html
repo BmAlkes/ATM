@@ -16,7 +16,7 @@
           <h1>ATM</h1>
           <div class="welcome">
             <span>Bem vindo</span>
-            <span>João da Silva</span>
+            <span class="name"></span>
           </div>
         </div>
         <div class="atm">
@@ -25,41 +25,39 @@
               <span>Saldo</span>
               <span>
                 <span class="symbol">$</span>
-                <span class="value">9.999.999 &infin;</span>
+                <span class="value"> &infin;</span>
               </span>
             </div>
             <div class="item">
               <span>Notas disponíveis</span>
+              <span class="item">Valor maximo Para saque $1000</span>
               <span>
-                <span class="bill">$ 100.00</span>
-                <span class="bill">$ 50.00</span>
-                <span class="bill">$ 20.00</span>
-                <span class="bill">$ 10.00</span>
+                <span class="bill"></span>
               </span>
             </div>
-            <div class="withdraw">$ 100, $ 100, $50, $10</div>
+            <div class="withdraw"></div>
           </div>
           <div class="action">
-            <input type="text" class="input" value="260" readonly />
+            <input type="text" class="input display"  readonly />
             <div class="keyboard">
               <div class="line">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
+                <div class="btn-num">1</div>
+                <div class="btn-num">2</div>
+                <div class="btn-num">3</div>
               </div>
               <div class="line">
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
+                <div class="btn-num">4</div>
+                <div class="btn-num">5</div>
+                <div class="btn-num">6</div>
               </div>
               <div class="line">
-                <div>7</div>
-                <div>8</div>
-                <div>9</div>
+                <div class="btn-num">7</div>
+                <div class="btn-num">8</div>
+                <div class="btn-num">9</div>
               </div>
               <div class="line">
                 <div class="action gray">Limpar</div>
-                <div>0</div>
+                <div class="btn-num">0</div>
                 <div class="action pink">Confirmar</div>
               </div>
             </div>
@@ -69,4 +67,5 @@
       </div>
     </div>
   </body>
+  <script src="scripts/index.js"></script>
 </html>
